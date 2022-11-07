@@ -1,0 +1,103 @@
+GIT and GITHUB
+
+	GIT -> Version Control System
+	GITHUB -> It is a platform in website allows to post our repositories
+
+				Repository is just a folder
+
+Example : Email Services
+
+
+Technology, Enhancements, UI Changes, Integration -> GIT
+
+Different Platforms that are providing by Email services like Gmail, Yahoo, Rediff -> GITHUB
+
+
+Why we are using GIT & GIT HUB
+ 	* Maintaining the history of the project
+	* Which change, in which project and When it is changes and who is changes etc
+	* Collobrating with others
+
+
+GIT ->  Version Control System
+			its a method to save the history of your files
+			Gits saves all the hsitory of your files and also changes made in it
+			Git achieves multiple things through it,
+
+
+GITHUB -> It is platform provides in web based application feature which is different from GIT			 
+			GITHUB works on GIT but they are different
+
+Commands
+*********************************************************************************************
+
+$ git --version -> To check the Git is installed successfully
+
+Do need to do some configruations
+	* To set the username and email as our account
+
+$ git config -> It represents the configuration file in GIT, in which we set.change, username, email etc
+
+$ git config -- global user.name "Type your name" -. This willchange your name for this account
+$ git config -- global user.email "Type your name" -. This willchange your name for this account
+	
+
+* There is a way to edit the email or username  ::$git config --global --edit
+
+* Make a directory -> mkdir  'DirectoryName'
+* Change directory -> cd 'DirectoryName/'
+
+
+Initialization of the created driectory  :: this is the respository created here and it is nothing it
+
+ $ git init -> initialize a directory
+
+
+ $ git status -> which tells you the status about the changes made in this repository
+
+
+
+ *Untracked File" -> it says that ' use 'git add <filename> to include in what we will be committed
+
+
+
+ 	Working Directory----
+				    |
+				    |
+				  GIT ADD
+				    |
+----	Staging Area<-------
+|
+|
+GIT COMMIT
+|
+|
+---->	Repository
+
+
+
+
+$ git commit  -m "initial comment" :: Saves the respective file in respository with message given
+
+$ git log -> will get the number of times the commits are happened
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
